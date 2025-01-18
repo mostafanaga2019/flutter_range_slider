@@ -469,7 +469,7 @@ class _RangeSliderState extends State<RangeSlider>
       showValueIndicator:
           sliderTheme.showValueIndicator ?? _defaultShowValueIndicator,
       valueIndicatorTextStyle: sliderTheme.valueIndicatorTextStyle ??
-          theme.textTheme.body2.copyWith(
+          theme.textTheme.bodyMedium.copyWith(
             color: theme.colorScheme.onPrimary,
           ),
     );
